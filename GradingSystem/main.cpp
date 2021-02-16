@@ -40,9 +40,11 @@ void determineLetterGrade(int grade) {
         case 80 ... 89:
             std::cout << "a B :)\n";
             break;
-        case 90 ... 100:
+        case 90 ... 99:
             std::cout << "an A :)\n";
             break;
+        case 100:
+        std::cout << "a P\n   ...for Perfect!!!\n";
         default:
             break;
     }
